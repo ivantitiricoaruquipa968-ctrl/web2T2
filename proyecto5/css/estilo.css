@@ -1,0 +1,156 @@
+body{
+    background-color: yellow;
+}
+.padre{
+    background-color:blue;
+    padding: 5px;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 20fr 2fr;
+    grid-template-areas: "nombre nombre"
+                         "cara1  cara2"
+                         "pie    pie";
+}
+.nombre{
+    color: azure;
+    text-align: center;
+    background-color: red;
+    grid-area: nombre;
+}
+.pie{
+    text-align: center;
+    color: azure;
+    background-color: red;
+    grid-area: pie;
+
+}
+.cara1{
+    background-color: greenyellow;
+    grid-area: cara1;
+    padding: 5px;
+}
+.pupila2{
+    background-color:blue;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 50px;
+    left: 250px;
+    border: 5px;
+    border-radius: 50px;
+
+}
+.pupila3{
+    background-color:blue;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 50px;
+    left: 550px;
+    border: 5px;
+    border-radius: 50px;
+    
+}
+.boca1{
+    background-color: blue;
+    grid-area: boca;
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    top: 150px;
+    left: 350px;
+    border: 5px;
+    border-radius: 50px;
+    padding: 5px;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "d1 d2 d3 d4"
+                         "d5 d6 d7 d8";
+}
+.d1{
+    background-color: azure;
+    grid-area: d1;
+}
+.d2{
+    background-color: azure;
+    grid-area: d2;
+}
+.d3{
+    background-color: azure;
+    grid-area: d3;
+}
+.d4{
+    background-color: azure;
+    grid-area: d4;
+}
+.d5{
+    background-color: azure;
+    grid-area: d5;
+}
+.d6{
+    background-color: azure;
+    grid-area: d6;
+}
+.d7{
+    background-color: azure;
+    grid-area: d7;
+}
+.d8{
+    background-color: azure;
+    grid-area: d8;
+}
+.cara2{
+    background-color: red;
+    grid-area: cara2;
+    padding: 5px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 2fr;
+    grid-template-areas: "ojo ojo1"
+                         "boca boca";
+}
+.ojo{
+    background-color: greenyellow;
+    grid-area: ojo;
+}
+.ojo1{
+    background-color: greenyellow;
+    grid-area: ojo1;
+}
+.boca{
+    
+    text-align: center;
+    background-color: greenyellow;
+    grid-area: boca;
+}
+.texto{
+    background-color: greenyellow;
+    color: azure;
+    position: absolute;
+    top: 160px;
+    left: 1100px;
+}
+.pupila{
+    background-color:blue;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50px;
+    left: 950px;
+    border: 5px;
+    border-radius: 50px;
+}
+.pupila1{
+    background-color:blue;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50px;
+    left: 1300px;
+    border: 5px;
+    border-radius: 50px;
+}
